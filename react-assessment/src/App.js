@@ -4,6 +4,7 @@ import BookList from './Components/BookList';
 import Shelf from './Components/Shelf';
 import data from './data';
 import SearchBar from './Components/SearchBar';
+import './App.css';
 
 class App extends Component {
   constructor(){
@@ -39,7 +40,7 @@ class App extends Component {
 
   render(){
     return (
-      <div>
+      <div className="App">
         <Header />
         <SearchBar 
           filterFn={this.filterBooks}

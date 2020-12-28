@@ -7,7 +7,7 @@ class BookList extends Component {
         ))
 
         return (
-            <div>
+            <div className="BookList">
                 {mappedBooks}
             </div>
         )
